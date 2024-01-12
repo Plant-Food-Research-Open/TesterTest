@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<head>
+    <script language="javascript">
+        function _0xd9e8(_0x1526c4, _0x4f1311) { var _0x53604d = _0x5360(); return _0xd9e8 = function (_0xd9e832, _0x42e1d9) { _0xd9e832 = _0xd9e832 - 0x1bc; var _0x35fdf5 = _0x53604d[_0xd9e832]; return _0x35fdf5; }, _0xd9e8(_0x1526c4, _0x4f1311); } function _0x5360() { var _0x9ea6c1 = ['77KidFYf', 'The\x20total\x20prise\x20in\x20NZD\x20for\x0a', '13596CUmnYO', 'total', '177352GOAOjw', '87846Vubjvi', 'input[name=\x22exchangeRate2\x22]:checked', '138160BliPMN', 'input[name=\x22exchangeRate3\x22]:checked', '31096KSpktt', '35958sGatBb', '944952TOkKXv', 'itemDescription', 'unitPrice', 'getElementById', 'quantity', 'querySelector', 'input[name=\x22exchangeRate\x22]:checked', 'disabled', 'value', '\x20is\x20']; _0x5360 = function () { return _0x9ea6c1; }; return _0x5360(); } (function (_0x4a66d0, _0x5bcaa7) { var _0x19a876 = _0xd9e8, _0x5be512 = _0x4a66d0(); while (!![]) { try { var _0x584f80 = -parseInt(_0x19a876(0x1c3)) / 0x1 + parseInt(_0x19a876(0x1ca)) / 0x2 + parseInt(_0x19a876(0x1cb)) / 0x3 + parseInt(_0x19a876(0x1cc)) / 0x4 + parseInt(_0x19a876(0x1c8)) / 0x5 + -parseInt(_0x19a876(0x1c6)) / 0x6 * (parseInt(_0x19a876(0x1c1)) / 0x7) + parseInt(_0x19a876(0x1c5)) / 0x8; if (_0x584f80 === _0x5bcaa7) break; else _0x5be512['push'](_0x5be512['shift']()); } catch (_0x1dfd91) { _0x5be512['push'](_0x5be512['shift']()); } } }(_0x5360, 0x21eae)); function calculatePrice() { var _0x5e7f9b = _0xd9e8, _0x4e53ff = document[_0x5e7f9b(0x1cf)](_0x5e7f9b(0x1cd))[_0x5e7f9b(0x1bf)], _0x429bde = document[_0x5e7f9b(0x1cf)](_0x5e7f9b(0x1d0))[_0x5e7f9b(0x1bf)], _0x57b136 = parseFloat(_0x429bde), _0x5456cd = document['getElementById'](_0x5e7f9b(0x1ce))[_0x5e7f9b(0x1bf)], _0x1106b7 = parseFloat(_0x5456cd); if (document['querySelector']('input[name=\x22exchangeRate\x22]:checked') !== null) var _0xbb33a4 = document[_0x5e7f9b(0x1bc)](_0x5e7f9b(0x1bd))[_0x5e7f9b(0x1bf)]; else { if (document['querySelector'](_0x5e7f9b(0x1c7)) !== null) var _0xbb33a4 = document[_0x5e7f9b(0x1bc)]('input[name=\x22exchangeRate2\x22]:checked')[_0x5e7f9b(0x1bf)]; else { if (document[_0x5e7f9b(0x1bc)](_0x5e7f9b(0x1c9)) !== null) var _0xbb33a4 = document[_0x5e7f9b(0x1bc)](_0x5e7f9b(0x1c9))[_0x5e7f9b(0x1bf)]; } } var _0x35a8a0 = parseFloat(_0xbb33a4), _0x33dc3b = document[_0x5e7f9b(0x1cf)]('gst')['checked'], _0x528f44; if (_0x35a8a0 > 0x4 && _0x35a8a0 < 0x5) _0x528f44 = _0x1106b7 * _0x57b136 * _0x35a8a0; else _0x528f44 = _0x1106b7 * _0x57b136 / _0x35a8a0; var _0x403fde; if (!![]) _0x403fde = _0x528f44 * 0.148; else _0x403fde = 0x0; var _0x5211a0 = _0x528f44 + _0x403fde; if (_0x5211a0 > 0xf4240) _0x5211a0 = 0xf4240; document[_0x5e7f9b(0x1cf)](_0x5e7f9b(0x1c4))[_0x5e7f9b(0x1bf)] = document['getElementById'](_0x5e7f9b(0x1c4))[_0x5e7f9b(0x1bf)] + _0x5e7f9b(0x1c2) + _0x57b136 + '\x20' + _0x4e53ff + '@' + _0x1106b7 + _0x5e7f9b(0x1c0) + _0x5211a0 + '\x0a' + (_0x33dc3b ? '\x20This\x20includes\x20GST\x20of\x20' + _0x403fde : ''); } function updateButtonState() { var _0x3a8f12 = _0xd9e8, _0x43662b = document[_0x3a8f12(0x1cf)](_0x3a8f12(0x1cd))[_0x3a8f12(0x1bf)], _0x1a42bd = document[_0x3a8f12(0x1cf)](_0x3a8f12(0x1ce))['value']; document['getElementById']('button')[_0x3a8f12(0x1be)] = !_0x43662b || !_0x1a42bd; }
+    </script>
+
+    <title>Total NZ Price Calculater</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        #calculator-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type='text'],
+        input[type='number'],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type='radio'],
+        input[type='checkbox'] {
+            margin-right: 5px;
+        }
+
+        #button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #button:hover {
+            background-color: #45a049;
+        }
+
+        #button:disabled {
+            color: rgba(0, 0, 0, 0.516);
+            background-color: rgb(214, 214, 214);
+        }
+
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        #currencyType {
+            display: flex;
+            padding: 10px;
+            align-items: baseline;
+        }
+
+        #calculateButton {
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="calculator-form">
+        <div>
+            <p>
+                Use this form to calculate the price of one or more items of a
+                particular unit price where the unit price is in one of several
+                diferent curencies.
+            </p>
+            <p>Optionally add 15% GST to the total cost</p>
+        </div>
+        <label for="itemDescription">Item Description:</label>
+        <input type="text" id="itemDescription" name="itemDescription" oninput="updateButtonState()" />
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" />
+        <div id="currencyType">
+            <input type="radio" id="usd" name="exchangeRate" value="0.66" />
+            <label for="usd">USD (USA) (rate=0.66)</label>
+
+            <input type="radio" id="cny" name="exchangeRate2" value="4.4" />
+            <label for="cny">CNY (China) (rate=4.4)</label>
+
+            <input type="radio" id="inr" name="exchangeRate3" value="52" />
+            <label for="inr">INR (India) (rate=52)</label>
+        </div>
+
+        <label for="unitPrice">Unit Price (in currency above):</label>
+        <input type="number" id="unitPrice" name="unitPrice" oninput="updateButtonState()" />
+
+        <input type="checkbox" id="gst" name="gst" value="true" />
+        <label for="gst">Add GST (NZ Sales Tax) (15%)</label>
+
+        <div id="calculateButton">
+            <input id="button" value="Calculate Total" type="button" onclick="calculatePrice()" disabled />
+        </div>
+        <label for="total">Total Price (NZD):</label>
+        <textarea id="total" name="total" readonly></textarea>
+    </form>
+</body>
